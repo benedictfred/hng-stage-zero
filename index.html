@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-card">
+        <div class="cover-image"></div>
+        <div class="profile-content">
+          <div class="profile-image">
+            <img
+              data-testid="profilePicture"
+              src="https://ca.slack-edge.com/T086NG3N69Y-U08BC45TR0Q-9772843cbfa1-512"
+              alt="Nebolisa Ugochukwu"
+            />
+          </div>
+          <h1 data-testid="fullName">Nebolisa Ugochukwu Benedict</h1>
+          <h2 data-testid="jobTitle">Frontend Developer</h2>
+
+          <p class="location" data-testid="currentLocation">Anambra State</p>
+
+          <p data-testid="shortBio">
+            Hi there! 👋 I'm a skilled and versatile web developer with a knack
+            for crafting user-friendly and visually appealing digital
+            experiences. With a strong focus on frontend development, I
+            specialize in creating responsive and interactive web applications
+            using modern frontend tools.
+          </p>
+
+          <div class="time-display">
+            <span data-testid="currentTimeUTC"></span>
+          </div>
+
+          <div class="contact-info">
+            <a
+              href="mailto:nebolisaugochukwu@gmail.com"
+              data-testid="emailAddress"
+            >
+              nebolisaugochukwu@gmail.com
+            </a>
+          </div>
+
+          <div class="social-links" data-testid="socialLinks">
+            <a
+              href="https://github.com/benedictfred"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ugochukwu-nebolisa-a818b6302"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://x.com/i_am_nebolisa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
