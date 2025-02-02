@@ -10,7 +10,7 @@ function updateUTCTime() {
     second: "2-digit",
   };
 
-  timeElement.textContent = `UTC: ${now.toLocaleTimeString("en-US", options)}`;
+  timeElement.textContent = now.toLocaleTimeString("en-US", options);
 }
 
 updateUTCTime();
